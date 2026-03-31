@@ -1,0 +1,7 @@
+sudo apt-get install cmake g++
+cd src
+mkdir build
+cd build
+conda activate $YOUR_PY38_ENV_NAME
+cmake ../cpp -DCMAKE_BUILD_TYPE=Release
+make -j
